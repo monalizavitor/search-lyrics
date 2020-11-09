@@ -1,2 +1,2 @@
-# search-lyrics
-Aplicação para buscar letras de músicas.
+# Search Lyrics
+Aplicação para buscar letras de músicas com consumo de API através do fetch.
