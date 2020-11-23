@@ -23,7 +23,7 @@ async function doSubmit() {
         if (data.lyrics == '') throw 'Musica não encontrada!'
         // Se entrar no if ele pula pro catch e o código que esta embaixo nem roda 
 
-        lyrics.innerHTML = data.lyrics
+        lyrics.innerText = data.lyrics
     }
     catch (error) {
         alert(error)
