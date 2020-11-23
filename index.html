@@ -11,27 +11,21 @@
 
 <body>
     <div class="container">
-        <div class="title">
-            <h1>Lyrics Search</h1>
-        </div>
-        <div class="control-group">
-            <form id="lyrics-form">
-                <div class="form-row">
-                    <label for="artist">Artist:</label>
-                    <input type="text" class="form-control" id="artist" placeholder="Artist">
-                    <label for="song">Song:</label>
-                    <input type="text" class="form-control" id="song" placeholder="Song">
-                    <button type="submit" class="btn">Search</button>
-                </div>
-            </form>
-        </div>
+        <h1 class="title">Lyrics Search</h1>
+
+        <form id="lyrics-form">
+            <!-- Deixei o artista e a musica fixo pra ficar mais facil de testar -->
+            <label for="artist">Artist:</label>
+            <input type="text" class="input-form" id="artist" placeholder="Artist" value="arcade fire">
+            <label for="song">Song:</label>
+            <input type="text" class="input-form" id="song" placeholder="Song" value="the suburbs">
+            <button type="submit" class="btn">Search</button>
+        </form>
     </div>
 
     <div id="lyrics"></div>
 
     <script src="script.js"></script>
-
-
 </body>
 
 </html>
