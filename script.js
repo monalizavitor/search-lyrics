@@ -1,5 +1,4 @@
-const findLyrics = (artist, song) => fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`)
-// Simplificando a função 
+const findLyrics = (artist, song) => fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`) 
 
 const form = document.querySelector('#lyrics-form')
 
@@ -20,8 +19,7 @@ async function doSubmit() {
         const data = await lyricsResponse.json()
 
         if (data.lyrics == undefined) throw 'Deculpe. Houve um erro!'
-        if (data.lyrics == '') throw 'Musica não encontrada!'
-        // Se entrar no if ele pula pro catch e o código que esta embaixo nem roda 
+        if (data.lyrics == '') throw 'Musica não encontrada!' 
 
         lyrics.innerText = data.lyrics
     }
