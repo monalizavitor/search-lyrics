@@ -2,7 +2,7 @@
 Aplicação para buscar letras de músicas com consumo de API restful.
 
  ## Objetivo 
- Desenvolver um projeto simples com JavaSript para entender melhor o uso de:
+ Desenvolver um projeto simples com JavaScript para entender melhor o uso de:
 - Promises
 - Fetch
 - Async await
